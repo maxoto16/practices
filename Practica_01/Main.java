@@ -15,7 +15,7 @@ public class Main {
             System.out.println("3. Se debe calcular la formula general.");
             System.out.println("4. Calcular hipotenusa triangulo rectangulo.");
             System.out.println("5. CALCULADORA SIMPLE");
-             System.out.println("6. EVALUAR EXPRECIONES");
+            System.out.println("6. EVALUAR EXPRECIONES");
             System.out.print("Ingrese una opcion...");
             opcion = scanner.nextInt();
  
@@ -60,25 +60,25 @@ if (opcion == 5) {
          */
 
 
-
-
+System.out.println("CALCULADORA");
 System.out.println("1.SUMA");
 System.out.println("2.RESTA");
 System.out.println("3. MULTIPLIACION");
 System.out.println("4. DIVICION");
 System.out.println("5. POTENCIA.");
 System.out.println("6. RAIZ DE UN NUMERO.");
-
+System.out.print("Ingrese una opcion...");
+            opcion2 = scanner.nextInt();
 
 System.out.println("AQUI EMPIEZA LA CALCULADORA");
 System.out.println("INGRESE SU PRIMER NUMERO ");
 double num1 = scanner.nextDouble();
 System.out.println("INGRESE SU SEGUNDO NUMERO ");
 double num2 = scanner.nextDouble();
-            System.out.print("Ingrese una opcion...");
-            opcion2 = scanner.nextInt();
+
+
 if (opcion2 == 1) {
-System.out.println ("Calculadora PAPU" + (num1 + num2 ) );
+System.out.println ("Calculadora PAPU ES :  " + (num1 + num2 ) );
     }
 
 if (opcion2 == 2) {
@@ -102,14 +102,38 @@ System.out.println ("Calculadora PAPU" + ( Math.sqrt(num1) ) );
 
 }
 
+///////////////////////////EVALUAR EXPRECIONES/////////////////////////////////////
 
 
 if (opcion == 6) {  
 
+    Scanner papuScanner = new Scanner(System.in);
+    System.out.println("Evaluar una expresion dada");
+    String exp = "";
+
+
+    System.out.println("Ingrese una expresion...");
+    exp = papuScanner.next();
+    System.out.println("Expresion dada:" + exp);
+   
+
+    
+    if (exp.contains("+"))
+        System.out.println("Es una suma");
+    if (exp.contains("-"))
+        System.out.println("Es una resta");
+    if (exp.contains("*"))
+        System.out.println("Es una multiplicacion");
+    if (exp.contains("/"))
+        System.out.println("Es una division");
+    if (exp.contains("^"))
+        System.out.println("Es una potencia");
+    
 }
 
 
 
-     } //cierra void
-      }  //Cierra main 
+     }  
+
+      }  
      
