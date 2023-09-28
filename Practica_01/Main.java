@@ -59,7 +59,6 @@ if (opcion == 5) {
          * 6.RAIZCUADRADA
          */
 
-
 System.out.println("CALCULADORA");
 System.out.println("1.SUMA");
 System.out.println("2.RESTA");
@@ -82,22 +81,22 @@ System.out.println ("Calculadora PAPU ES :  " + (num1 + num2 ) );
     }
 
 if (opcion2 == 2) {
-System.out.println ("Calculadora PAPU" + (num1 - num2 ) );
+System.out.println ("Calculadora PAPU ES :" + (num1 - num2 ) );
     }
 
 if (opcion2 == 3) {
-System.out.println ("Calculadora PAPU" + (num1 * num2 ) );
+System.out.println ("Calculadora PAPU ES: " + (num1 * num2 ) );
     }
 
 if (opcion2 == 4) {
-System.out.println ("Calculadora PAPU" + (num1 / num2 ) );
+System.out.println ("Calculadora PAPU ES :" + (num1 / num2 ) );
     }
 
     if (opcion2 == 5){
-System.out.println ("Calculadora PAPU" + (Math.pow(num1, num2)) );
+System.out.println ("Calculadora PAPU ES :" + (Math.pow(num1, num2)) );
     }
         if (opcion2 == 6){
-System.out.println ("Calculadora PAPU" + ( Math.sqrt(num1) ) );
+System.out.println ("Calculadora PAPU ES :" + ( Math.sqrt(num1) ) );
     }
 
 }
@@ -106,6 +105,7 @@ System.out.println ("Calculadora PAPU" + ( Math.sqrt(num1) ) );
 
 
 if (opcion == 6) {  
+/*  VALIDA EL CONTENIDO RELACIONADO PARA SABER QUE ES */
 
     Scanner papuScanner = new Scanner(System.in);
     System.out.println("Evaluar una expresion dada");
@@ -116,8 +116,6 @@ if (opcion == 6) {
     exp = papuScanner.next();
     System.out.println("Expresion dada:" + exp);
    
-
-    
     if (exp.contains("+"))
         System.out.println("Es una suma");
     if (exp.contains("-"))
