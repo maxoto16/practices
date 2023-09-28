@@ -101,14 +101,15 @@ System.out.println ("Calculadora PAPU" + ( Math.sqrt(num1) ) );
     }
 
 }
+
+
+
 if (opcion == 6) {  
-    
-
-
 
 }
 
 
 
-     }
+     } //cierra void
+      }  //Cierra main 
      
