@@ -46,7 +46,7 @@ if (opcion <= 10){
             
 if (opcion >10 ) {
     boolean condicion1, condicion2;
-
+    
             if (opcion == 11) {
                 condicion1 = 3 >= 3 || 5 != 5;
                 condicion2 = 15.0 / 5 + 2 != 5;
