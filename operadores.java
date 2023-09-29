@@ -18,8 +18,8 @@ public class operadores {
         System.out.println("11. (3 >= 3 || 5 != 5) && !(15.0 / 5 + 2 != 5)");
         System.out.println("12. (3 >= 4 && 5 < 3) || !(4 <= 4 || 5 > 4 || 6 >= 7)");
         System.out.println("13. !(8 >= 4 && 5 < 3) && !(4 <= 4 || 5 > 4 || 6 >= 7)");
-        System.out.println("Seleccione una operación o expresión lógica...");
         System.out.println("####################################################################################################################");
+        System.out.println("Seleccione una operación o expresión lógica...");
         int opcion = scanner.nextInt();
         double resultado = 0;
         boolean resultadoLogico = false;
@@ -46,7 +46,7 @@ if (opcion <= 10){
             
 if (opcion >10 ) {
     boolean condicion1, condicion2;
-    
+
             if (opcion == 11) {
                 condicion1 = 3 >= 3 || 5 != 5;
                 condicion2 = 15.0 / 5 + 2 != 5;
