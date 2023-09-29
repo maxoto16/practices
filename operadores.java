@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class operadores {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        
+        System.out.println("####################################################################################################################");
+        System.out.println("MENU DE OPERACIONES ARITMETICAS Y LOGICAS.      DE ANGEL GILBERTO AVILA LOPEZ 1B DSM UTEZ MEX");
         System.out.println("1. 4 + 2 * 5");
         System.out.println("2. 23 * 2 / 5");
         System.out.println("3. 5*2+3^2/2+4");
@@ -19,12 +19,15 @@ public class operadores {
         System.out.println("12. (3 >= 4 && 5 < 3) || !(4 <= 4 || 5 > 4 || 6 >= 7)");
         System.out.println("13. !(8 >= 4 && 5 < 3) && !(4 <= 4 || 5 > 4 || 6 >= 7)");
         System.out.println("Seleccione una operación o expresión lógica...");
-        
+        System.out.println("####################################################################################################################");
         int opcion = scanner.nextInt();
         double resultado = 0;
         boolean resultadoLogico = false;
+double num1 =0;
+double num2 =0;
 
-            if (opcion > 0 && opcion < 10)
+if (opcion <= 10){
+        
             if (opcion == 1) {resultado = num1 + num2;} 
             if (opcion == 2) {resultado = num1 * num2 / 5;} 
             if (opcion == 3) {resultado = 5 * 2 + Math.pow(3, 2) / 2 + 4;} 
@@ -38,12 +41,12 @@ public class operadores {
 
             System.out.println("Resultado de la operación: " + resultado);
 
+} 
 
-
-         if (opcion >= 11 && opcion <= 13) {
-            // Expresiones lógicas
-            boolean condicion1, condicion2;
             
+if (opcion >10 ) {
+    boolean condicion1, condicion2;
+    
             if (opcion == 11) {
                 condicion1 = 3 >= 3 || 5 != 5;
                 condicion2 = 15.0 / 5 + 2 != 5;
@@ -58,9 +61,8 @@ public class operadores {
                 condicion2 = 4 <= 4 || 5 > 4 || 6 >= 7;
                 resultadoLogico = condicion1 && !condicion2;}
 
-            System.out.println("Resultado de la expresión lógica: " + resultadoLogico);
-        } else {
-            System.out.println("Opción no válida.");
+            System.out.println("Resultado LOGICO PARA LOS PAPUS:" + resultadoLogico);
         }
     }
-}
+
+ }
