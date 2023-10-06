@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Practica5 {
     //estructura de seleccion multiple
     public static void main(String[] args) {
@@ -24,7 +23,7 @@ public class Practica5 {
                 System.out.println("x es igual a 2");
                 break;
             case 'c':
-                System.out.println("x es igual a 3")
+                System.out.println("x es igual a 3");
                 break;
             case 'd':
                 System.out.println("x es igual a 4");
