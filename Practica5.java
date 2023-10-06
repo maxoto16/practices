@@ -15,7 +15,7 @@ public class Practica5 {
         System.out.println("F. EVALUAR");
         System.out.println("INGERSA UNA OPCION:........");
         opc2 = sc.next().toLowerCase().charAt(0);    
-        switch (opc) {
+        switch (opc2) {
             case 'a':
                 System.out.println("x es igual a 1");
                 break;
