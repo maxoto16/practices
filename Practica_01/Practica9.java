@@ -1,3 +1,4 @@
+package Practica_01;
 public class Practica9 {
     public static void main(String[] args) {
         //sucecion de fibonacci

@@ -1,3 +1,4 @@
+package Practica_01;
 import java.util.Scanner;
 public class Practica5 {
     //estructura de seleccion multiple
