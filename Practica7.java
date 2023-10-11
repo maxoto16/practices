@@ -23,6 +23,7 @@ while (!end.toLowerCase().equals("no")){
         System.out.println("2. FIBONACCI");
         System.out.print("3. TRIANGULO");
         System.out.println("DIJITE UNA OPCION DEL MENU........");
+        opc =sc.next();
 
         switch (opc){
                 case "1":
@@ -74,17 +75,48 @@ while (!end.toLowerCase().equals("no")){
         break;
                 case "3":
                 /*      Dibujar triangulo con ciclo while  */
+
+                
+                int n = 5; // número de filas
+                int o = 1; // contador para las filas
+                int j = 1; // contador para las columnas
+                int k = 1; // contador para el espacio
                 
 
 
 
+                while (o <= n) {
+                // imprimir espacios
+                while (k <= n - o) {
+                System.out.print(" ");
+                k++;
+                }
+                
 
 
-        break;
-                default:
+                // imprimir asteriscos
+                while (j <= o) {
+                System.out.print("*");
+                j++;
+                }
+                
+
+
+                // saltar de línea
+                System.out.println();
+                
+
+
+                // reiniciar contadores
+                i++;
+                j = 1;
+                k = 1;
         }
-
+}
+}
+    }
 }
 
-}}
+
+
 
