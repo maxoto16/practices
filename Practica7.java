@@ -7,7 +7,6 @@ public class Practica7 {
 
 
 //factorial
-int num = 0;
 int factorial = 1; 
 String continuar ="";
 //Fibonaci
@@ -34,7 +33,6 @@ while (!end.toLowerCase().equals("no")){
                         System.out.println("Ingrese un numero...........  ");
                         Scanner scanner = new Scanner(System.in);
                         int num = scanner.nextInt();
-                        int factorial = 1;
                 if (num < 0){}  
                 else
                 {
@@ -62,16 +60,26 @@ while (!end.toLowerCase().equals("no")){
                 while (continuar.toLowerCase().equals("si")){
                         System.out.println("Cuantos terminos mostrara ....");                 
                         while ( i < sc.nextInt()){
+
                                 System.out.println(a + "");  
                                 int terminote = a + b;
                                 a =b ;
                                 b = terminote;
                                 i++;
                         }
+                        System.out.println("DECEA CONTINUAR CALCULANDO LA SERIE DE FIBONACCI");
+                        continuar = sc.next().toLowerCase();
                 }
                 
         break;
                 case "3":
+                /*      Dibujar triangulo con ciclo while  */
+                
+
+
+
+
+
         break;
                 default:
         }
