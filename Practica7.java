@@ -5,7 +5,7 @@ public class Practica7 {
         //estrucutra while Calcular factorial
 
 
-
+//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 //factorial
 int factorial = 1; 
 String continuar ="";
@@ -16,7 +16,9 @@ int lines = 0;
 //globals
 String opc = "", end= "";
 Scanner sc =new Scanner(System.in);
+//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 while (!end.toLowerCase().equals("no")){
         System.out.print("CALCULTOR V2.O");
         System.out.println("1. FACTORIAL");
